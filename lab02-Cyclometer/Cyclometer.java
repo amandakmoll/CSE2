@@ -25,12 +25,12 @@ public class Cyclometer{
         double PI=3.14159;
         int feetPerMile=5280; //number of feet per mile will never change now
         int inchesPerFoot=12; //declare variable constant of inches per foot
-        int secondsPerMinute=60; //must declare to program this is constant
+        double secondsPerMinute=60; //must declare to program this is constant
         double distanceTrip1, distanceTrip2, totalDistance; //double because dependent on the wheel diameter
         
         //Print time in Minutes and the rotation counts
-        System.out.println("Trip 1 took "+ (secsTrip1/secondsPerMinute)+ " minutes and had"+ countsTrip1+" counts.");
-        System.out.println("Trip 2 took "+ (secsTrip2/secondsPerMinute)+ " minutes and had"+ countsTrip2+" counts.");
+        System.out.println("Trip 1 took "+ (secsTrip1/secondsPerMinute)+ " minutes and had "+ countsTrip1+" counts.");
+        System.out.println("Trip 2 took "+ (secsTrip2/secondsPerMinute)+ " minutes and had "+ countsTrip2+" counts.");
         
         //Record Calculations: Trip1 8 minutes and 1561 counts Trip2 53 minutes and 9037 counts
         //Computing values for the distances
